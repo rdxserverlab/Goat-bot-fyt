@@ -7,7 +7,7 @@ module.exports = {
   config: {
     name: "uptime",
     aliases: ["up"],
-    author: "ArYAN",
+    author: "BaYjid",
     countDown: 0,
     role: 0,
     category: "system",
@@ -75,7 +75,7 @@ module.exports = {
 │𝙲𝙿𝚄 𝚄𝚂𝙰𝙶𝙴: ${cpuUsage.toFixed(1)}%
 │𝚁𝙰𝙼 𝚄𝚂𝙶𝙴: ${process.memoryUsage().heapUsed / 1024 / 1024} MB;
 ├───────────────⟡
-│ ✅ 𝗢𝗧𝗛𝗘𝗥 𝗜𝗡𝗙𝗢
+│ ☣️ 𝗢𝗧𝗛𝗘𝗥 𝗜𝗡𝗙𝗢
 │𝙳𝙰𝚃𝙴: ${date}
 │𝚃𝙸𝙼𝙴: ${time}
 │𝚄𝚂𝙴𝚁𝚂: ${allUsers.length}
