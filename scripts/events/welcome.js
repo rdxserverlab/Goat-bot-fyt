@@ -22,14 +22,14 @@ module.exports = {
 			defaultWelcomeMessage: "Xin chào {userName}.\nChào mừng bạn đến với {boxName}.\nChúc bạn có buổi {session} vui vẻ!"
 		},
 		en: {
-			session1: "morning",
-			session2: "noon",
-			session3: "afternoon",
-			session4: "evening",
-			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
-			multiple1: "you",
-			multiple2: "you guys",
-			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
+			session1: "𝗠𝗢𝗥𝗡𝗜𝗡𝗚",
+			session2: "𝗡𝗢𝗢𝗡",
+			session3: "𝗔𝗙𝗧𝗘𝗥𝗡𝗢𝗢𝗡",
+			session4: "𝗘𝗩𝗘𝗡𝗜𝗡𝗚",
+			welcomeMessage: "𝗜'𝗠 𝗔𝗦𝗧𝗥𝗢𝗣𝗢𝗗𝗘-𝗕𝗢𝗧!𝗧𝗛𝗔𝗡𝗞 𝗬𝗢𝗨 𝗙𝗢𝗥 𝗜𝗡𝗩𝗜𝗧𝗜𝗡𝗚 𝗠𝗘\n𝗠𝗬 𝗣𝗥𝗘𝗙𝗜𝗫: %1\n𝗧𝗢 𝗩𝗜𝗘𝗪 𝗧𝗛𝗘 𝗟𝗜𝗦𝗧 𝗢𝗙 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦, 𝗣𝗟𝗘𝗔𝗦𝗘 𝗧𝗬𝗣𝗘: %1help",
+			multiple1: "𝗬𝗢𝗨",
+			multiple2: "𝗬𝗢𝗨 𝗚𝗨𝗬𝗦",
+			defaultWelcomeMessage: `𝗛𝗘𝗟𝗟𝗢 {userName}.\n𝗪𝗘𝗟𝗖𝗢𝗠𝗘 {multiple} 𝗧𝗢 𝗧𝗛𝗘 𝗚𝗥𝗢𝗨𝗣: {boxName}\n𝗛𝗔𝗩𝗘 𝗔 𝗡𝗜𝗖𝗘  {session} 😊`
 		}
 	},
 
