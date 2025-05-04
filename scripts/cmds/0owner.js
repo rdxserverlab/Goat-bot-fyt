@@ -16,15 +16,15 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: 'BAYJID Ai',
+      name: 'NIROB',
       gender: 'Male',
-      age: '17+',
+      age: '18+',
       height: 'Unknown',
-      facebookLink: 'https://www.facebook.com/BAYJID.404',
-      nick: 'BIJU'
+      facebookLink: 'https://www.facebook.com/hatake.kakashi.NN',
+      nick: 'kakashi'
     };
 
-    const bold = 'https://i.imgur.com/DDO686J.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://files.catbox.moe/yl9y63.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
@@ -54,7 +54,7 @@ Nick: ${ownerInfo.nick}
     }, event.threadID, event.messageID);
 
     if (event.body.toLowerCase().includes('ownerinfo')) {
-      api.setMessageReaction('🚀', event.messageID, (err) => {}, true);
+      api.setMessageReaction('🥷', event.messageID, (err) => {}, true);
     }
   } catch (error) {
     console.error('Error in ownerinfo command:', error);
